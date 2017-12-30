@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Lab5_Amandeep_Jishnu</string>
+    <string name="title_activity_maps">Toronto Restaurant</string>
+
+
+    <string name="indianRest">Indian</string>
+    <string name="chineseRest">Chinese</string>
+    <string name="italianRest">Italian</string>
+
+    <string-array name="indianRest">
+        <item>Anjappar Chettinad Restaurant</item>
+        <item>Aroman Fine Indian Cuisine</item>
+        <item>Feast of Dilli</item>
+    </string-array>
+
+    <string-array name="chineseRest">
+        <item>Goubuli</item>
+        <item>Dragon Pearl Restaurant</item>
+        <item>Congee Queen</item>
+
+    </string-array>
+
+    <string-array name="italianRest">
+        <item>Remezzo Italian Bistro</item>
+        <item>Fabbrica</item>
+        <item>Spoon and Fork</item>
+    </string-array>
+
+
+    <string-array name="addressboxindian">
+        <item>16 Market St</item>
+        <item>287 King St</item>
+        <item>378 Brown\'s Line</item>
+    </string-array>
+    <string-array name="addressboxchinese">
+        <item>865 York Mills Road</item>
+        <item>280 West Beaver Creek Rd</item>
+        <item>895 Lawrence Ave East</item>
+    </string-array>
+    <string-array name="addressboxitalian">
+        <item>3335 Sheppard Avenue east</item>
+        <item>49 Karl Frazer Rd</item>
+        <item>865 York Mills Road</item>
+    </string-array>
+</resources>

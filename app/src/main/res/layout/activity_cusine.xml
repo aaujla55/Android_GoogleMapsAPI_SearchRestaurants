@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.amandeepaujla.lab5_amandeep_jishnu.CusineActivity">
+
+    <TextView
+        android:id="@+id/txtviewCuisines"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/colorMultiSelectHighlight"
+        android:paddingBottom="50px"
+        android:paddingLeft="30px"
+        android:paddingTop="50px"
+        android:text="Select any cuisine"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp" />
+
+    <RadioGroup
+        android:id="@+id/radio_Cuisine_group"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/logo"
+        android:layout_weight="0.97"
+        >
+
+        <RadioButton
+            android:id="@+id/indian"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:text="@string/indianRest"
+            android:textSize="30sp" />
+
+        <RadioButton
+            android:id="@+id/chinese"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:text="@string/chineseRest"
+            android:textSize="30sp" />
+
+        <RadioButton
+            android:id="@+id/italian"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:text="@string/italianRest"
+            android:textSize="30sp"
+            />
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnNextToRestaurant"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:layout_gravity="center_horizontal"
+        android:background="?android:attr/colorMultiSelectHighlight"
+        android:onClick="openRestaurants"
+        android:text="Next"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp" />
+
+</LinearLayout>
